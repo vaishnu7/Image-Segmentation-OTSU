@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<LMSDataContainerHeader Version="2" ApplicationDescription="LMSIOManager" ApplicationVersion="1,2,2207,0">
+  <Element Name="Position014" Visibility="1" CopyOption="1" UniqueID="85e808e1-8410-11eb-9a1c-6805ca3dff90">
+    <Data>
+      <Image TextDescription="">
+        <Attachment Name="Coordinate" Application="LAS AF">
+          <Coordinate Name="ChamberU" Value="0" />
+          <Coordinate Name="ChamberV" Value="0" />
+          <Coordinate Name="FieldX" Value="13" />
+        </Attachment>
+        <Attachment Name="PreviewMarker" Application="LAS AF" IsPreviewImage="0" />
+        <ImageDescription>
+          <Channels>
+            <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Gray" IsLUTInverted="0" BytesInc="0" BitInc="0">
+            </ChannelDescription>
+            <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Green" IsLUTInverted="0" BytesInc="524288" BitInc="0">
+            </ChannelDescription>
+            <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Red" IsLUTInverted="0" BytesInc="1048576" BitInc="0">
+            </ChannelDescription>
+            <ChannelDescription DataType="0" ChannelTag="0" Resolution="16" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="6.553500e+004" Unit="" LUTName="Cyan" IsLUTInverted="0" BytesInc="1572864" BitInc="0">
+            </ChannelDescription>
+          </Channels>
+          <Dimensions>
+            <DimensionDescription DimID="1" NumberOfElements="512" Origin="0.000000e+000" Length="2.920000e-004" Unit="m" BitInc="0" BytesInc="2">
+            </DimensionDescription>
+            <DimensionDescription DimID="2" NumberOfElements="512" Origin="0.000000e+000" Length="2.920000e-004" Unit="m" BitInc="0" BytesInc="1024">
+            </DimensionDescription>
+            <DimensionDescription DimID="4" NumberOfElements="44" Origin="0.000000e+000" Length="1.548010e+005" Unit="s" BitInc="0" BytesInc="2097152">
+            </DimensionDescription>
+          </Dimensions>
+        </ImageDescription>
+        <TimeStampList NumberOfTimeStamps="176">1d7181d9c109690 1d7181d9dd6d7a0 1d7181d9ecafba0 1d7181d9ff5e710 1d7182600874d50 1d71826024db570 1d7182603422790 1d71826046cc4e0 1d7182e6230da50 1d7182e63f805c0 1d7182e64ea5500 1d7182e66154070 1d71836c0ca6830 1d71836c29256f0 1d71836c385b7a0 1d71836c4b02de0 1d7183f249f1290 1d7183f26668c20 1d7183f275a6200 1d7183f2883ede0 1d71847870bc880 1d7184788d20990 1d7184789c6c9d0 1d718478af22a70 1d7184fe7167290 1d7184fe8dc8c90 1d7184fe9cfc630 1d7184feafad8b0 1d718584981f000 1d718584b4ac920 1d718584c3e29d0 1d718584d691540 1d71860a8a59570 1d71860aa6a9e00 1d71860ab5dd7a0 1d71860ac898660 1d718690ceeac80 1d718690eb62610 1d718690fa8ea80 1d7186910d3aee0 1d718716d10fd40 1d718716ed8ec00 1d718716fcc4cb0 1d7187170f78640 1d71879ce7766c0 1d71879d03f7c90 1d71879d1328f20 1d71879d25d0560 1d7188230872fa0 1d71882324f9390 1d7188233427f10 1d71882346ddfb0 1d7188a92b09b00 1d7188a9479e950 1d7188a956f1ec0 1d7188a9698d1b0 1d71892f2fc1ea0 1d71892f4c4a9a0 1d71892f5b9df10 1d71892f6e31cd0 1d7189b572f3cb0 1d7189b58f66820 1d7189b59e9c8d0 1d7189b5b132da0 1d718a3b95cc6c0 1d718a3bb24b580 1d718a3bc183d40 1d718a3bd4153f0 1d718ac1b2fd4c0 1d718ac1cf68b00 1d718ac1de99d90 1d718ac1f152540 1d718b47bc02990 1d718b47d85f570 1d718b47e7a6790 1d718b47fa4b6c0 1d718bcded7c580 1d718bce09ec9e0 1d718bce191dc70 1d718bce2bd6420 1d718c53e2a4320 1d718c53ff2f530 1d718c540e59290 1d718c5420ef760 1d718cda19444d0 1d718cda35be570 1d718cda44f1f10 1d718cda57a3190 1d718d602e74d60 1d718d604ae51c0 1d718d605a29cd0 1d718d606cd6130 1d718de64bf3d60 1d718de6686de00 1d718de67792d40 1d718de68a2e030 1d718e6c5638f60 1d718e6c72abad0 1d718e6c81d5830 1d718e6c946e410 1d718ef28208830 1d718ef29e8ec20 1d718ef2adc4cd0 1d718ef2c05ffc0 1d718f7896d7640 1d718f78b347aa0 1d718f78c278d30 1d718f78d525190 1d718ffebefd710 1d718ffedb63f30 1d718ffeea99fe0 1d718ffefd4b260 1d719084e5b5480 1d719085022a700 1d7190851148110 1d71908523f4570 1d71910afb36620 1d71910b17a4370 1d71910b26dcb30 1d71910b3986880 1d7191911555200 1d71919131ccb90 1d719191416bbf0 1d719191540e410 1d7192172f73de0 1d7192174bd7ef0 1d7192175b0b890 1d7192176dba400 1d71929d5e16130 1d71929d7a94ff0 1d71929d89c6280 1d71929d9cd8f80 1d71932373b6ea0 1d7193239011370 1d7193239f5aca0 1d719323b213450 1d7193a97f2d370 1d7193a99b78de0 1d7193a9aab15a0 1d7193a9bd69d50 1d71942f7c27050 1d71942f987ee10 1d71942fa7d4a90 1d71942fba7c0d0 1d7194b5d1c0d00 1d7194b5ee27520 1d7194b5fd587b0 1d7194b6100c140 1d71953be258970 1d71953bfecb4e0 1d71953c0e03ca0 1d71953c20a8bd0 1d7195c1dd23500 1d7195c1f99d5a0 1d7195c208d8470 1d7195c21b8e510 1d71964810659a0 1d7196482cbfe70 1d7196483c0beb0 1d7196484ebf840 1d7196ce393de00 1d7196ce55bf3d0 1d7196ce64f2d70 1d7196ce77ab520 1d71975441e6670 1d7197545e591e0 1d7197546d8a470 1d719754803b6f0 1d7197da583be80 1d7197da74ae9f0 1d7197da83e71b0 1d7197da9698430 1d7198608a7dd90 1d719860a6ebae0 1d719860b635410 1d719860c8e3f80 </TimeStampList>
+        <Attachment Name="ChannelAttachment" Application="LAS AF" />
+        <Attachment Name="ViewerScaling" Application="LAS AF">
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="6.74379503383277E-02" BlackValue="0" GammaValue="1" Automatic="0" />
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="0.122294541494897" BlackValue="0" GammaValue="1" Automatic="0" />
+          <ChannelScalingInfo BackgroundLutName="" WhiteValue="4.27524843178727E-02" BlackValue="0" GammaValue="1" Automatic="0" />
+        </Attachment>
+        <Attachment Name="ImageXMLDocument" Application="LAS AF">
+          <RootNode />
+        </Attachment>
+        <Attachment Name="HardwareSetting" Application="LAS AF" Software="LAS X 3.6.0.20104" HardwareServerVersion="Build 20104" SystemType="10" SystemTypeName="AF 6000LX" DataSourceType="1" DataSourceTypeName="Camera">
+          <ATLCameraSettingDefinition VersionNumber="5" SpimMirrorMode="1" MirrorX="0" MirrorY="0" TheoCamSensorPixelSizeX="1.59999999596039E-05" TheoCamSensorPixelSizeY="1.59999999596039E-05" Gamma="1" Brightness="50" WhiteValue="65535" BlackValue="0" GainValue="1" GainStringValue="0" IsGainUsedAsStringList="0" CanDoEMGain="1" CanDoColorSat="0" EMGainValue="200" OffsetValue="0" ColorSat="0" AutoBright="0" AutoExposure="0" AutoContrastGamma="101" BinningText="" LiveBinningText="" ScanMode="xyt" ZUseMode="2" ZUseModeName="z-wide" ZPosition="0.00092148501" IsSuperZ="0" Begin="0" End="0" Sections="1" CycleCount="70" CycleTime="3600" UseMaxIterationsForT="0" CompleteTime="248406.355020094" IsTimeMinimizeEnabled="0" LastTCalcMode="3" ValidBeginStack="0" ValidEndStack="0" StackCalculationMode="0" StackCalculationModeName="Constant steps" ZStackDirectionMode="1" ZStackDirectionModeName="Unidirectional" IsLinkedShadingEnabled="0" StageUseMode="1" StagePosX="0.059827" StagePosY="0.0398753" StagePosID="14" StageRangeX="0.12" StageRangeY="0.08" StageOrderNumber="0" FlipX="0" FlipY="0" SwapXY="0" Magnification="40" CanDoTotalVideoMag="1" TotalVideoMag="28" AutofocusChannel="1" IsAutofocusOnStart="1" AutofocusRedoEveryNTimePoints="0" ObjectiveName="HC PL FLUOTAR L    40x/0.60 DRY " ObjectiveNumber="11506203" ObjectivePos="2" MicroscopeModel="DMI8" IsInverseMicroscopeModel="1" ShutterMode="1" ShutterModeSoftware="0" CanDoIndustryShuttering="0" Immersion="DRY" NumericalAperture="0.6" RefractionIndex="1" MountingMediumRefractionIndex="1" CoverslipThickness="0.00017" TubeOpticName="" TubeOpticPos="-1" TubeOpticPortMagPos="0" CanDoChangeSpeedAndPort="1" SpeedandPortIndex="0" SpeedandPort="1.7E+07" CanDoColorCapture="0" CanDoMicroScanning="0" CanDoDualLightMode="0" CanDoLiveBinning="0" CanDoControlCooler="1" IsCoolerActive="1" CanDoControlTemperature="1" TargetTemperature="-75" CurrentTemperature="-75" CanDoFanControl="1" FanControl="2" CanDoHotSpotCorrection="0" CanDoBrightnessCorrection="0" SCMOSReadoutMode="0" CanDoEnhancedAcquisitionMode="0" CurrentLightSheetFilterPosition="0" BinningValuePrecise="1" BinningXValuePrecise="1" BinningYValuePrecise="1" ZStackUseMode="1" NbStepsForEDOF="10" MaxNbStepsForStartUp="20" CalcEDoFfromZStack="0" CalcEDoFfromZStackForStartUp="0" EnhancedAcquisitionHDREnable="0" EnhancedAcquisitionHDRAutomatic="1" EnhancedAcquisitionHDRContrast="1" EnhancedAcquisitionHDRBrightness="50" IsSequencerAdvancedUseEnabled="0" PortCameraPercentage="100" UserManagementUserName="UserManagementFeatureInactive">
+            <Autofocus-config VersionNumber="1" Precision="1" FocusRange="0.00002" ZUseMode="2" ZUseModeName="z-wide" AFAnalyseType="4" AFAnalyseTypeName="FirstChannelOnly" WorkflowTimelapse="2" WorkflowTimelapseName="AllTime" WorkflowTimelapseIterator="1" WorkflowXY="2" WorkflowXYName="AllPos" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="1" AFSubsystemName="AFC" AFCOffset="11236.82" AFCActive="1" AFCOnDemandActive="1" AFCAutonomousOffset="11258.35" AutoFocusMode="2" AutoFocusModeName="FirstChannelOnly" AutofocusChannel="1" AutofocusChannelName="2000" OptimalStepSize="0.000001" PositionDimension="122" />
+            <AdditionalZPositionList>
+              <AdditionalZPosition Valid="1" SuperZMode="1" SuperZModeName="RestrictedRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00092148501" />
+            </AdditionalZPositionList>
+            <Quantity Value="0.000001" Unit="" />
+            <ZStackUseModeInfo ZStackUseMode="1" StackCalcMode="0" ValidBegin="0" ValidEnd="0" BeginValue="0" EndValue="0" NbSections="1">
+              <Quantity Value="0" Unit="" />
+            </ZStackUseModeInfo>
+            <WideFieldChannelConfigurator MicroscopeFamilyType="2" CameraName="Andor-iXon-Ultra-7101" CameraType="80" CameraNamePure="Andor iXon Ultra (S/N: 7101)" CameraColorCaptureMode="0" MaxChannelCount="8" CurrentChannelIndex="0" IsSequencerBoard="1" IsSequencerAdvancedBoard="0" IsTriggerCamera="1" IsAutoZControl="0" IsAutoTimeControl="0" IsAutoFluoControl="0" IsAutoIntensityControl="0" IsAutoExposureTimeControl="0" IsAutoWaveLength="0" eZUseMode="0" eStackFlowMode="2" IsUseSameExposureTime="0" SameExposureTime="0.01" IsHighSpeedModeActive="0" IsSequencerUseEnabled="1" IsSequencerAdvancedUseEnabled="0" EStageAFCModeForSeqAdv="0" IsSimpleOperation="0" FastFilterWheel1="100" FastFilterWheel2="-1" FastFilterWheel3="300" FastFilterWheel4="-1" CanDoTIRF="0" TIRFPenetrationDepthMode="1" SameTIRFPenetrationDepthIndex="0" SameTIRFApertureValue="0" TIRFManualMode="0" IsTIRFFastIlluminationSwitchingActive="0" InTrigger="-1" OutTrigger="-1" InTriggerMode="-1" OutTriggerMode="-1" m_sInTrigger="-1" m_sInTriggerMode="-1" m_sInTriggerShowInGraph="1" m_sInTriggerRecordInEventlist="1" m_sInTriggerDescription="" m_sOutTrigger="-1" m_sOutTriggerMode="-1" m_sOutTriggerShowInGraph="1" m_sOutTriggerRecordInEventlist="1" m_sOutTriggerDescription="" m_sOutTriggerOnStart="-1" m_sOutTriggerOnStartMode="-1" m_sOutTriggerOnStartShowInGraph="1" m_sOutTriggerOnStartRecordInEventlist="1" m_sOutTriggerOnStartDescription="" m_sOutTriggerOnEnd="-1" m_sOutTriggerOnEndMode="-1" m_sOutTriggerOnEndShowInGraph="1" m_sOutTriggerOnEndRecordInEventlist="1" m_sOutTriggerOnEndDescription="" WFCCCameranRoiLeftHightX="0" WFCCCameranRoiLeftHightY="0" WFCCCameranRoiRightButtomX="512" WFCCCameranRoiRightButtomY="512" WFCCCameranRoiIsUsed="0" ILLEDCanDoChangeWavelength="0" ILLEDCanDoCombineWavelengths="1" ILLEDMaxWavelengths="0" ILLEDCanDoCombiLightSource="0" ILLEDUIMode="1" ILLEDCodedSliderPos="3" AutoFocusHSActive="1" AFHSCameraBinningMode="1" AFHSConfigMode="0" AFHSPrecision="1" AFHSRangeLocal="20" AFHSRangeGlobal="200" AFHSOperationMode="0" AFHSZUseMode="2" AFHSWorkflowTimelapse="2" AFHSWorkflowTimelapseIterator="1" AFHSWorkflowZStack="1" AFHSWorkflowXY="2" AFHSWorkflowXYIterator="1" AFHSWorkflowXYPositions="" AFHSSubsystem="1" AFHSAFCOffset="11161.31" AFHSCameranRoiLeftHightX="0" AFHSCameranRoiLeftHightY="0" AFHSCameranRoiRightButtomX="0" AFHSCameranRoiRightButtomY="0" AFHSCameranRoiIsUsed="0" ExtensionMode="0" GISTAutoExpoControlConfig_IsEnabled="0" GISTAutoExpoControlConfig_MaxRegulatorValue="150" GISTAutoExpoControlConfig_MinRegulatorValue="1" GISTAutoExpoControlConfig_OverexposuredPixelsThreshold="5" CanDoOnlineShadingCorrection="1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionActivationState="0" OnlineShadingCorrectionNotificationsEnabled="0" CanDoDIC="1" CanDoCondenser="1" OnlineShadingCorrection="0" ObjectiveArtNo="11506203" ObjectiveName="HC PL FLUOTAR L 40 x" bIsDiaphragmStoreModeEnabled="0" bIsDICStoreModeEnabled="0" IsSimAcqActive="0" CanDoStageRotation="0" StageRotationAngle="0" CanDoColumnTilt="0" ColumnTiltAngle="0" ScanheadDiaphragm="-1" ScanheadAttenuator="-1" ScanheadAfocalLens="-1" ScanheadVelocity="-1" WFLaserManipulationTimeCourseExperimentSettings="">
+              <WideFieldChannelInfo Channel="2000" Active="1" FluoCubePos="2" Intensity="84" IntensityMode="100" ExposureTime="0.01" ContrastingMethodName="TL-PH" ContrastingMethod="101" Gain="1" GainString="0" StringGainName="" EMGain="200" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="New 1" FluoCubeName="QUAD-S" EmissionWavelength="550" DyeName="" LUT="Gray" BackgroundLUT="" BlackValue="0" WhiteValue="1" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" WhiteBalanceBaseValueR="0" WhiteBalanceBaseValueG="0" WhiteBalanceBaseValueB="0" ColorWheelValueR="0" ColorWheelValueG="0" ColorWheelValueB="0" FFW_Excitation1Position="4" FFW_Excitation2Position="0" FFW_Emission1Position="4" FFW_Emission2Position="0" FFW_Excitation1PositionDev="4" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="4" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="100%" FFW_Excitation2FilterName="" FFW_Emission1FilterName="100%" FFW_Emission2FilterName="" TL_Light-Intensity="84" IL_Light-Intensity="5" TL_Shutter="1" IL_Shutter="0" FieldDiaphragmValue="40" ApertureDiaphragmValue="8" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="-1" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="4" CondenserLensName="PH2" ObliqueMode="0" ObliqueValue="-1" />
+              <WideFieldChannelInfo Channel="2001" Active="1" FluoCubePos="0" Intensity="3" IntensityMode="210" ExposureTime="0.5" ContrastingMethodName="FLUO" ContrastingMethod="205" Gain="3" GainString="0" StringGainName="" EMGain="300" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="New 2" FluoCubeName="FITC" EmissionWavelength="527" DyeName="" LUT="Green" BackgroundLUT="" BlackValue="0" WhiteValue="6.74379503383277E-02" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" WhiteBalanceBaseValueR="0" WhiteBalanceBaseValueG="0" WhiteBalanceBaseValueB="0" ColorWheelValueR="0" ColorWheelValueG="0" ColorWheelValueB="0" FFW_Excitation1Position="4" FFW_Excitation2Position="0" FFW_Emission1Position="4" FFW_Emission2Position="0" FFW_Excitation1PositionDev="4" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="4" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="100%" FFW_Excitation2FilterName="" FFW_Emission1FilterName="100%" FFW_Emission2FilterName="" TL_Light-Intensity="100" IL_Light-Intensity="3" TL_Shutter="0" IL_Shutter="1" FieldDiaphragmValue="-1" ApertureDiaphragmValue="-1" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="0" CondenserLensName="BF" ObliqueMode="0" ObliqueValue="-1" />
+              <WideFieldChannelInfo Channel="2002" Active="1" FluoCubePos="5" Intensity="3" IntensityMode="210" ExposureTime="0.5" ContrastingMethodName="FLUO" ContrastingMethod="205" Gain="3" GainString="0" StringGainName="" EMGain="300" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="New 3" FluoCubeName="Cherry-T" EmissionWavelength="630" DyeName="" LUT="Red" BackgroundLUT="" BlackValue="0" WhiteValue="0.122294541494897" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" WhiteBalanceBaseValueR="0" WhiteBalanceBaseValueG="0" WhiteBalanceBaseValueB="0" ColorWheelValueR="0" ColorWheelValueG="0" ColorWheelValueB="0" FFW_Excitation1Position="4" FFW_Excitation2Position="0" FFW_Emission1Position="4" FFW_Emission2Position="0" FFW_Excitation1PositionDev="4" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="4" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="100%" FFW_Excitation2FilterName="" FFW_Emission1FilterName="100%" FFW_Emission2FilterName="" TL_Light-Intensity="100" IL_Light-Intensity="3" TL_Shutter="0" IL_Shutter="1" FieldDiaphragmValue="11" ApertureDiaphragmValue="6" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="0" CondenserLensName="BF" ObliqueMode="0" ObliqueValue="-1" />
+              <WideFieldChannelInfo Channel="2003" Active="1" FluoCubePos="2" Intensity="3" IntensityMode="210" ExposureTime="0.5" ContrastingMethodName="FLUO" ContrastingMethod="205" Gain="3" GainString="0" StringGainName="" EMGain="300" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="New 5" FluoCubeName="QUAD-S" EmissionWavelength="705" DyeName="" LUT="Cyan" BackgroundLUT="" BlackValue="0" WhiteValue="4.27524843178727E-02" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" WhiteBalanceBaseValueR="0" WhiteBalanceBaseValueG="0" WhiteBalanceBaseValueB="0" ColorWheelValueR="0" ColorWheelValueG="0" ColorWheelValueB="0" FFW_Excitation1Position="3" FFW_Excitation2Position="0" FFW_Emission1Position="3" FFW_Emission2Position="0" FFW_Excitation1PositionDev="3" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="3" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="CY5" FFW_Excitation2FilterName="" FFW_Emission1FilterName="CY5" FFW_Emission2FilterName="" TL_Light-Intensity="100" IL_Light-Intensity="3" TL_Shutter="0" IL_Shutter="1" FieldDiaphragmValue="11" ApertureDiaphragmValue="6" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="0" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="0" CondenserLensName="BF" ObliqueMode="0" ObliqueValue="-1" />
+              <WideFieldChannelInfo Channel="3000" Active="1" FluoCubePos="2" Intensity="84" IntensityMode="100" ExposureTime="0.01" ContrastingMethodName="TL-PH" ContrastingMethod="101" Gain="1" GainString="0" StringGainName="" EMGain="200" SpinDiskFilterSetPosition="0" SpinDiskUse="0" FluoChromeName="" UserDefName="AutoFocusHS" FluoCubeName="QUAD-S" EmissionWavelength="550" DyeName="" LUT="Gray" BackgroundLUT="" BlackValue="0" WhiteValue="1" GammaValue="1" SpinDiskFilterSetName="unknown" ColorGainValueR="0" ColorGainValueG="0" ColorGainValueB="0" WhiteBalanceBaseValueR="0" WhiteBalanceBaseValueG="0" WhiteBalanceBaseValueB="0" ColorWheelValueR="0" ColorWheelValueG="0" ColorWheelValueB="0" FFW_Excitation1Position="4" FFW_Excitation2Position="0" FFW_Emission1Position="4" FFW_Emission2Position="0" FFW_Excitation1PositionDev="4" FFW_Excitation2PositionDev="0" FFW_Emission1PositionDev="4" FFW_Emission2PositionDev="0" FFW_Excitation1FilterName="100%" FFW_Excitation2FilterName="" FFW_Emission1FilterName="100%" FFW_Emission2FilterName="" FieldDiaphragmValue="40" ApertureDiaphragmValue="-1" OnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionReferenceParentID="-1" FilteredOnlineShadingCorrectionReferenceID="-1" OnlineShadingCorrectionDefinitionState="-1" OnlineShadingCorrectionReferenceImageName="" TIRF_WaveLength="0" TIRF_Azimuth="0" TIRF_PenetrationDepthIndex="0" TIRF_Aperture="0" TIRF_PenetrationDepthFromAperture="0" TIRF_PenetrationDepth="0" TIRF_FastIlluminationSwitchingMode="0" TIRF_LaserIntensity="0" ILLEDMaxUsedChannels="0" ILLEDIsValid="0" TIRFFastIlluminationSwitchingMode="0" AFCApplicable="1" GIST_BackpumpingIntensity="0" GIST_BackpumpingEnabled="0" DICPos="3" DICLensName="-" CondenserPos="4" CondenserLensName="PH2" ObliqueMode="0" ObliqueValue="-1" />
+              <AdvancedCameraFeatures Advanced_Camera_Features_Activated="1" />
+            </WideFieldChannelConfigurator>
+            <CameraFormat xDim="512" yDim="512" Resolution="16" IsGray="1" Binning="1" LiveBinning="1" ColorCaptureMode="0" SimAcqMode="1" />
+            <XYStageConfiguratorSettings>
+              <StitchingSettings IsAutoStitching="1" OverlapXmanual="0" OverlapYmanual="0" OverlapPercentageX="0.1" OverlapPercentageY="0.1" />
+              <XYZStagePointDefinitionList StageOrderNumber="0">
+                <XYZStagePointDefinition StageXPos="0.0567704" StageYPos="0.0350145" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position1" PositionID="1" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11242.25">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00090645106" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.052038" StageYPos="0.0388737" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position2" PositionID="2" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11258.35">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000889644565" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0523" StageYPos="0.038915" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position3" PositionID="3" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.28">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000890636575" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0528311" StageYPos="0.0389835" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position4" PositionID="4" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11247.72">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000890505845" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0531289" StageYPos="0.0390253" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position5" PositionID="5" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11265.86">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000894750725" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0534054" StageYPos="0.039057" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position6" PositionID="6" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11253.83">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00089352417" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0539561" StageYPos="0.0391333" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position7" PositionID="7" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11257.17">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00089640023" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0567584" StageYPos="0.0394763" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position8" PositionID="8" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11262.86">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000910968935" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0573245" StageYPos="0.039559" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position9" PositionID="9" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11269.35">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00091394881" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.057878" StageYPos="0.0396216" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position10" PositionID="10" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11246.28">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00091229546" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0581633" StageYPos="0.0396572" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position11" PositionID="11" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11270.4">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000917636165" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0589901" StageYPos="0.0397666" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position12" PositionID="12" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11255.12">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000918151395" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0592798" StageYPos="0.0398024" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position13" PositionID="13" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11247.62">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000917705375" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.059827" StageYPos="0.0398753" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position14" PositionID="14" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11260.38">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.00092148501" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+                <XYZStagePointDefinition StageXPos="0.0604154" StageYPos="0.0399306" ZMode="2" ZUseModeName="z-wide" ValidStack="0" Sections="1" StepSize="0" PositionIdentifier="Position15" PositionID="15" FileNameBase="" MartixIdentifier="0" TileScanIdentifier="0" AFCOffset="11278.49">
+                  <AdditionalZPositionList>
+                    <AdditionalZPosition Valid="1" SuperZMode="0" SuperZModeName="CurrentHWRange" ZMode="2" ZUseModeName="z-wide" ZPosition="0.000925779875" />
+                  </AdditionalZPositionList>
+                </XYZStagePointDefinition>
+              </XYZStagePointDefinitionList>
+              <Misc />
+            </XYStageConfiguratorSettings>
+          </ATLCameraSettingDefinition>
+        </Attachment>
+      </Image>
+    </Data>
+    <Memory Size="92274688" MemoryBlockID="">
+      <Frame File="..\position014--t00--c00.tif" Offset="0" Size="524288" UUID="d32e251c-6840-4228-b8cc-f2b15213e3a9" />
+      <Frame File="..\position014--t00--c01.tif" Offset="524288" Size="524288" UUID="6dbaca91-a116-408a-9ab3-877234acfccf" />
+      <Frame File="..\position014--t00--c02.tif" Offset="1048576" Size="524288" UUID="4b401626-a73c-42ae-bbf0-b8b8fdb25c70" />
+      <Frame File="..\position014--t00--c03.tif" Offset="1572864" Size="524288" UUID="5b040841-b3fe-44d3-944c-4199deba33b7" />
+      <Frame File="..\position014--t01--c00.tif" Offset="2097152" Size="524288" UUID="fba4ebed-8e96-49ac-aae0-a273385af4b9" />
+      <Frame File="..\position014--t01--c01.tif" Offset="2621440" Size="524288" UUID="650a9d9b-d634-4463-a2a7-5cd9321fe01d" />
+      <Frame File="..\position014--t01--c02.tif" Offset="3145728" Size="524288" UUID="ddca6ed6-8e0b-427b-9bb7-34100a5b2095" />
+      <Frame File="..\position014--t01--c03.tif" Offset="3670016" Size="524288" UUID="5f12a0a7-1534-49e5-a71a-7a84d2ed08d1" />
+      <Frame File="..\position014--t02--c00.tif" Offset="4194304" Size="524288" UUID="5c31e9b7-88d9-46ab-882f-ad7305c0535d" />
+      <Frame File="..\position014--t02--c01.tif" Offset="4718592" Size="524288" UUID="5b3b28c6-eef3-414d-89f2-b63ff9585498" />
+      <Frame File="..\position014--t02--c02.tif" Offset="5242880" Size="524288" UUID="ad99c03b-7332-4a9c-836a-bda7ea3aac1b" />
+      <Frame File="..\position014--t02--c03.tif" Offset="5767168" Size="524288" UUID="e80e03c0-afbd-4a19-b9af-a0243e04cae4" />
+      <Frame File="..\position014--t03--c00.tif" Offset="6291456" Size="524288" UUID="e33c3089-5675-4fba-99c8-bbc1cbecc3bf" />
+      <Frame File="..\position014--t03--c01.tif" Offset="6815744" Size="524288" UUID="096833ba-d241-40e7-90c6-85bb7945b9f3" />
+      <Frame File="..\position014--t03--c02.tif" Offset="7340032" Size="524288" UUID="93664e6a-3c13-43b0-9097-3ce7ee62774a" />
+      <Frame File="..\position014--t03--c03.tif" Offset="7864320" Size="524288" UUID="34e1f483-010a-41dd-a34b-f9c15c109ec8" />
+      <Frame File="..\position014--t04--c00.tif" Offset="8388608" Size="524288" UUID="83c11741-6693-45f8-86f5-b439faa68968" />
+      <Frame File="..\position014--t04--c01.tif" Offset="8912896" Size="524288" UUID="0b378064-235e-4123-9656-1199cc0d5f78" />
+      <Frame File="..\position014--t04--c02.tif" Offset="9437184" Size="524288" UUID="966b3372-ead9-4010-a9ce-c9eeaddeb6ad" />
+      <Frame File="..\position014--t04--c03.tif" Offset="9961472" Size="524288" UUID="743458c0-15bb-40c9-bd7a-6c8a57c9ba27" />
+      <Frame File="..\position014--t05--c00.tif" Offset="10485760" Size="524288" UUID="346d8880-9e24-4ebd-ace3-929242a65d2d" />
+      <Frame File="..\position014--t05--c01.tif" Offset="11010048" Size="524288" UUID="8395fd74-91e2-4942-8288-9362344618f2" />
+      <Frame File="..\position014--t05--c02.tif" Offset="11534336" Size="524288" UUID="b088ec33-6ada-462e-90d2-c7b2f003ad66" />
+      <Frame File="..\position014--t05--c03.tif" Offset="12058624" Size="524288" UUID="d5240ea1-a5ac-4ba6-aaf9-52d58a5647c8" />
+      <Frame File="..\position014--t06--c00.tif" Offset="12582912" Size="524288" UUID="a8412537-f32f-44c1-822b-c0181a9f6fad" />
+      <Frame File="..\position014--t06--c01.tif" Offset="13107200" Size="524288" UUID="97ea6e9f-3085-410d-b346-600e40624556" />
+      <Frame File="..\position014--t06--c02.tif" Offset="13631488" Size="524288" UUID="d9157386-655c-45df-a0eb-8f5310b5c325" />
+      <Frame File="..\position014--t06--c03.tif" Offset="14155776" Size="524288" UUID="400dc88d-44e4-49a4-892c-a1bdc76f9c22" />
+      <Frame File="..\position014--t07--c00.tif" Offset="14680064" Size="524288" UUID="3777bd08-b05b-4d78-bdc1-712cf2cee670" />
+      <Frame File="..\position014--t07--c01.tif" Offset="15204352" Size="524288" UUID="78e821cf-fcf8-4d64-98d6-49b22512b6d0" />
+      <Frame File="..\position014--t07--c02.tif" Offset="15728640" Size="524288" UUID="eb3108d1-2e01-41ac-874e-c07ec853871d" />
+      <Frame File="..\position014--t07--c03.tif" Offset="16252928" Size="524288" UUID="ba8bfc18-0e15-4307-9949-dd219ba2e633" />
+      <Frame File="..\position014--t08--c00.tif" Offset="16777216" Size="524288" UUID="447c7857-dcfe-4663-9c40-258748d0545b" />
+      <Frame File="..\position014--t08--c01.tif" Offset="17301504" Size="524288" UUID="23ff3b26-5b34-49fa-8c30-227c18b09a3f" />
+      <Frame File="..\position014--t08--c02.tif" Offset="17825792" Size="524288" UUID="a63347ce-2957-48f9-9a5b-b873c35065bb" />
+      <Frame File="..\position014--t08--c03.tif" Offset="18350080" Size="524288" UUID="76a5216e-b115-4b6a-940a-0c1537e5731d" />
+      <Frame File="..\position014--t09--c00.tif" Offset="18874368" Size="524288" UUID="022d78e9-8fb7-4770-aaa5-7aa3c2d92816" />
+      <Frame File="..\position014--t09--c01.tif" Offset="19398656" Size="524288" UUID="ade2513a-2c8e-4adc-84a1-18572dc0668e" />
+      <Frame File="..\position014--t09--c02.tif" Offset="19922944" Size="524288" UUID="7a74045b-95a9-476d-b20e-1fc4e769b253" />
+      <Frame File="..\position014--t09--c03.tif" Offset="20447232" Size="524288" UUID="e6641cd9-7ace-4a41-9c13-9dfde2c85fa2" />
+      <Frame File="..\position014--t10--c00.tif" Offset="20971520" Size="524288" UUID="9ae7eb5b-88ba-485e-b285-7534c6af40ce" />
+      <Frame File="..\position014--t10--c01.tif" Offset="21495808" Size="524288" UUID="c3191e76-872a-4980-afbb-cd05c084bd8c" />
+      <Frame File="..\position014--t10--c02.tif" Offset="22020096" Size="524288" UUID="4f288289-fc5e-45aa-a911-1f7e0a82ae4b" />
+      <Frame File="..\position014--t10--c03.tif" Offset="22544384" Size="524288" UUID="cc2821b7-7b46-461f-99f8-841f03657bed" />
+      <Frame File="..\position014--t11--c00.tif" Offset="23068672" Size="524288" UUID="73b90415-652d-454b-8c7a-2cb974757d18" />
+      <Frame File="..\position014--t11--c01.tif" Offset="23592960" Size="524288" UUID="31f65338-3708-4ab9-96f1-549d1b2aa453" />
+      <Frame File="..\position014--t11--c02.tif" Offset="24117248" Size="524288" UUID="f7e0083f-cf98-41e6-968a-1e87c9c6a6d1" />
+      <Frame File="..\position014--t11--c03.tif" Offset="24641536" Size="524288" UUID="1ed0000a-cf6a-4c72-8d10-f76fb381be7d" />
+      <Frame File="..\position014--t12--c00.tif" Offset="25165824" Size="524288" UUID="7fb93426-8ca3-4f9d-876c-c63f418b742e" />
+      <Frame File="..\position014--t12--c01.tif" Offset="25690112" Size="524288" UUID="4a84da22-3136-4eba-a06e-23b04d8c3e7d" />
+      <Frame File="..\position014--t12--c02.tif" Offset="26214400" Size="524288" UUID="00e5f4b2-4e5d-41a3-85ad-2ee38b4e7743" />
+      <Frame File="..\position014--t12--c03.tif" Offset="26738688" Size="524288" UUID="48bf0b05-b477-49bb-bda6-cf7e846347f9" />
+      <Frame File="..\position014--t13--c00.tif" Offset="27262976" Size="524288" UUID="511114f2-105c-4b2b-99bf-a2911b2614fb" />
+      <Frame File="..\position014--t13--c01.tif" Offset="27787264" Size="524288" UUID="54dbccc5-f950-4310-bf52-d3045850cb0c" />
+      <Frame File="..\position014--t13--c02.tif" Offset="28311552" Size="524288" UUID="1a06e883-4f60-4569-a702-f20184ce336f" />
+      <Frame File="..\position014--t13--c03.tif" Offset="28835840" Size="524288" UUID="208fca88-b3e6-46d3-b129-b4b511b4572a" />
+      <Frame File="..\position014--t14--c00.tif" Offset="29360128" Size="524288" UUID="0477f232-d2c6-4e42-82c3-18265a343fc0" />
+      <Frame File="..\position014--t14--c01.tif" Offset="29884416" Size="524288" UUID="97c25c8d-0859-45af-a2d8-3e1fd0652883" />
+      <Frame File="..\position014--t14--c02.tif" Offset="30408704" Size="524288" UUID="d701ce77-28d1-4279-948f-1bebc9dc65be" />
+      <Frame File="..\position014--t14--c03.tif" Offset="30932992" Size="524288" UUID="37aa6587-69cc-476a-9aa7-74055c0e43c2" />
+      <Frame File="..\position014--t15--c00.tif" Offset="31457280" Size="524288" UUID="0e519156-d8fc-433e-a906-58f935c87a59" />
+      <Frame File="..\position014--t15--c01.tif" Offset="31981568" Size="524288" UUID="35efdec0-5e61-4c89-bc15-446b4bbc3835" />
+      <Frame File="..\position014--t15--c02.tif" Offset="32505856" Size="524288" UUID="e0a7fe46-3071-41dc-9cc6-671d690b0705" />
+      <Frame File="..\position014--t15--c03.tif" Offset="33030144" Size="524288" UUID="aa7460da-7961-4ad0-ad86-311527661974" />
+      <Frame File="..\position014--t16--c00.tif" Offset="33554432" Size="524288" UUID="3ba40dc3-7e24-4465-98e7-b462721eb401" />
+      <Frame File="..\position014--t16--c01.tif" Offset="34078720" Size="524288" UUID="3ae81d3d-a9e3-4f7d-b16d-1196a9bb11d4" />
+      <Frame File="..\position014--t16--c02.tif" Offset="34603008" Size="524288" UUID="c0fab84e-9a3d-4fb7-8367-0ba1a8d855ee" />
+      <Frame File="..\position014--t16--c03.tif" Offset="35127296" Size="524288" UUID="5578f9f8-48a4-4a4b-a786-bb30f27a2052" />
+      <Frame File="..\position014--t17--c00.tif" Offset="35651584" Size="524288" UUID="db19c72f-7492-4ef9-9e65-43b16d8da358" />
+      <Frame File="..\position014--t17--c01.tif" Offset="36175872" Size="524288" UUID="b7ade64f-0ffc-420b-820d-aff55b0a1464" />
+      <Frame File="..\position014--t17--c02.tif" Offset="36700160" Size="524288" UUID="d0eae9ef-8ce7-427a-89c7-0f625d686368" />
+      <Frame File="..\position014--t17--c03.tif" Offset="37224448" Size="524288" UUID="8c75aeed-6bd7-48a7-bce3-2e6dc6f12c43" />
+      <Frame File="..\position014--t18--c00.tif" Offset="37748736" Size="524288" UUID="9d32ea9f-e06b-4ff5-aa17-d1874ba0a2c8" />
+      <Frame File="..\position014--t18--c01.tif" Offset="38273024" Size="524288" UUID="edc74156-52d5-44c7-885c-b6edd7c5499a" />
+      <Frame File="..\position014--t18--c02.tif" Offset="38797312" Size="524288" UUID="29b6522a-ad89-4834-bbd2-4225298c1320" />
+      <Frame File="..\position014--t18--c03.tif" Offset="39321600" Size="524288" UUID="f9e92492-c64c-43e5-93c7-c529344977cb" />
+      <Frame File="..\position014--t19--c00.tif" Offset="39845888" Size="524288" UUID="dc198fd1-0df0-4d9a-9b0f-b26f63c78485" />
+      <Frame File="..\position014--t19--c01.tif" Offset="40370176" Size="524288" UUID="7e260957-4c7f-402a-b268-ade80a4ac864" />
+      <Frame File="..\position014--t19--c02.tif" Offset="40894464" Size="524288" UUID="d8de1f44-6fcd-4e57-8ada-c9cc8c255fc0" />
+      <Frame File="..\position014--t19--c03.tif" Offset="41418752" Size="524288" UUID="2db4347d-748d-422f-9eb6-d326ad194051" />
+      <Frame File="..\position014--t20--c00.tif" Offset="41943040" Size="524288" UUID="7305b32f-0624-4cf8-9598-2871ec11c193" />
+      <Frame File="..\position014--t20--c01.tif" Offset="42467328" Size="524288" UUID="b5355c73-6dec-4d26-9d16-9d6442b7c72c" />
+      <Frame File="..\position014--t20--c02.tif" Offset="42991616" Size="524288" UUID="2343f418-9e6c-43dd-94a6-2c686b8a7593" />
+      <Frame File="..\position014--t20--c03.tif" Offset="43515904" Size="524288" UUID="f5685a65-0259-4343-90bd-bbc954040359" />
+      <Frame File="..\position014--t21--c00.tif" Offset="44040192" Size="524288" UUID="8bed6be2-2b9b-4182-82f3-2e23421a8d91" />
+      <Frame File="..\position014--t21--c01.tif" Offset="44564480" Size="524288" UUID="4bd44e3a-897e-46da-a0fe-baa2e064479e" />
+      <Frame File="..\position014--t21--c02.tif" Offset="45088768" Size="524288" UUID="b714bde4-0fc4-49e7-bdd2-3e1dd9a5ed05" />
+      <Frame File="..\position014--t21--c03.tif" Offset="45613056" Size="524288" UUID="3827173f-29f1-40c0-b5f4-d0fd54df8b67" />
+      <Frame File="..\position014--t22--c00.tif" Offset="46137344" Size="524288" UUID="a361dd8c-0daa-48d3-b27f-9eddc367269f" />
+      <Frame File="..\position014--t22--c01.tif" Offset="46661632" Size="524288" UUID="013009df-69d2-4354-acd9-15f730137c69" />
+      <Frame File="..\position014--t22--c02.tif" Offset="47185920" Size="524288" UUID="0374ca09-f1b4-4a0f-92d5-9cd4b62602bf" />
+      <Frame File="..\position014--t22--c03.tif" Offset="47710208" Size="524288" UUID="a4f9abdc-a6c3-4b98-a401-d5022c03ca8e" />
+      <Frame File="..\position014--t23--c00.tif" Offset="48234496" Size="524288" UUID="1c8ef65a-19ef-439e-aa0c-9d9e6c594d43" />
+      <Frame File="..\position014--t23--c01.tif" Offset="48758784" Size="524288" UUID="99100725-2fba-4a15-99e5-59feff5ad9b4" />
+      <Frame File="..\position014--t23--c02.tif" Offset="49283072" Size="524288" UUID="9729fbb7-883b-4ac8-91f0-109d122baf10" />
+      <Frame File="..\position014--t23--c03.tif" Offset="49807360" Size="524288" UUID="f5dca14f-2729-4cc4-b7c9-8832ce2b9a07" />
+      <Frame File="..\position014--t24--c00.tif" Offset="50331648" Size="524288" UUID="5cb11a90-253e-49d5-a507-c8f7a0a10d9e" />
+      <Frame File="..\position014--t24--c01.tif" Offset="50855936" Size="524288" UUID="cd00a674-88c2-4ed7-b482-da6a34c8523b" />
+      <Frame File="..\position014--t24--c02.tif" Offset="51380224" Size="524288" UUID="2bd2a3cb-7118-4c2b-a7d4-e37ae1af99d9" />
+      <Frame File="..\position014--t24--c03.tif" Offset="51904512" Size="524288" UUID="a41c701d-97d1-4597-8d8c-fb1c4d04ccea" />
+      <Frame File="..\position014--t25--c00.tif" Offset="52428800" Size="524288" UUID="fe1336b3-64f7-4abb-b04f-207dbac36dce" />
+      <Frame File="..\position014--t25--c01.tif" Offset="52953088" Size="524288" UUID="bcb8ddae-ba07-43cb-97d1-22a12e6f543d" />
+      <Frame File="..\position014--t25--c02.tif" Offset="53477376" Size="524288" UUID="e92d46ea-f1ba-4517-81c8-7c57de24ea47" />
+      <Frame File="..\position014--t25--c03.tif" Offset="54001664" Size="524288" UUID="924b07f9-2e7c-4ffa-8f68-698b346c38e5" />
+      <Frame File="..\position014--t26--c00.tif" Offset="54525952" Size="524288" UUID="35d9886d-60c0-4d68-adc7-efa3c1651572" />
+      <Frame File="..\position014--t26--c01.tif" Offset="55050240" Size="524288" UUID="27ce19f8-7e5a-4e71-b52c-03ced75b602c" />
+      <Frame File="..\position014--t26--c02.tif" Offset="55574528" Size="524288" UUID="3c800e56-3a00-40de-a702-3fd009c332da" />
+      <Frame File="..\position014--t26--c03.tif" Offset="56098816" Size="524288" UUID="9695c5d3-540a-4e4f-aeee-840def2e6d23" />
+      <Frame File="..\position014--t27--c00.tif" Offset="56623104" Size="524288" UUID="807067ea-b309-4e50-8065-042d15cb2521" />
+      <Frame File="..\position014--t27--c01.tif" Offset="57147392" Size="524288" UUID="7970791e-b475-4f6f-91b1-cf8917e36b9b" />
+      <Frame File="..\position014--t27--c02.tif" Offset="57671680" Size="524288" UUID="dab3136e-088b-47fd-8ed3-0b4135bec267" />
+      <Frame File="..\position014--t27--c03.tif" Offset="58195968" Size="524288" UUID="8bfc180b-ff69-4ea1-8e2d-5904f867c91a" />
+      <Frame File="..\position014--t28--c00.tif" Offset="58720256" Size="524288" UUID="706acdc1-4caf-400c-a216-c7c0ca2cef15" />
+      <Frame File="..\position014--t28--c01.tif" Offset="59244544" Size="524288" UUID="8db307f7-21f2-4bdc-91a4-79b3cdb01635" />
+      <Frame File="..\position014--t28--c02.tif" Offset="59768832" Size="524288" UUID="d4a98066-c0be-4a13-9c61-05ad7ab2c4dd" />
+      <Frame File="..\position014--t28--c03.tif" Offset="60293120" Size="524288" UUID="b53057a4-b7e0-4b14-90dd-06a2c2d6e875" />
+      <Frame File="..\position014--t29--c00.tif" Offset="60817408" Size="524288" UUID="25502b41-9011-4abe-bfc5-b988f10ec519" />
+      <Frame File="..\position014--t29--c01.tif" Offset="61341696" Size="524288" UUID="4be22690-8d8f-4b19-9160-7efb1491c4f9" />
+      <Frame File="..\position014--t29--c02.tif" Offset="61865984" Size="524288" UUID="31caec73-f4fb-4c26-9ebd-0d23f9f6098e" />
+      <Frame File="..\position014--t29--c03.tif" Offset="62390272" Size="524288" UUID="dd927bc3-c936-4038-9f12-5b7c5a2f1c34" />
+      <Frame File="..\position014--t30--c00.tif" Offset="62914560" Size="524288" UUID="e7295bbb-1906-4ebf-9173-53fc22caf9ed" />
+      <Frame File="..\position014--t30--c01.tif" Offset="63438848" Size="524288" UUID="3e9488f3-252d-4b37-868d-9d5db74cf9e4" />
+      <Frame File="..\position014--t30--c02.tif" Offset="63963136" Size="524288" UUID="fcd448d9-8e7d-43e8-8870-d6d359f4196a" />
+      <Frame File="..\position014--t30--c03.tif" Offset="64487424" Size="524288" UUID="b9e19c47-982a-4c74-ad0b-3106131fc3c1" />
+      <Frame File="..\position014--t31--c00.tif" Offset="65011712" Size="524288" UUID="d2d4c3fb-d275-483a-8ed2-603a768a2c57" />
+      <Frame File="..\position014--t31--c01.tif" Offset="65536000" Size="524288" UUID="cc80bbe7-6886-4fb9-8d2b-1559ebf0c6c3" />
+      <Frame File="..\position014--t31--c02.tif" Offset="66060288" Size="524288" UUID="ad93597a-b177-418c-bb69-5fcf7b18e773" />
+      <Frame File="..\position014--t31--c03.tif" Offset="66584576" Size="524288" UUID="d2d5c87b-1460-4b16-ad20-cc19898f8687" />
+      <Frame File="..\position014--t32--c00.tif" Offset="67108864" Size="524288" UUID="ff5e984e-b7d3-48ea-8659-3f89ac62722d" />
+      <Frame File="..\position014--t32--c01.tif" Offset="67633152" Size="524288" UUID="22bf97fc-f11f-4af8-af20-e047420c47b5" />
+      <Frame File="..\position014--t32--c02.tif" Offset="68157440" Size="524288" UUID="c8484ae1-7ad6-480c-92a3-aeaa58e80764" />
+      <Frame File="..\position014--t32--c03.tif" Offset="68681728" Size="524288" UUID="2128de7d-0874-4d55-8463-ded101376e41" />
+      <Frame File="..\position014--t33--c00.tif" Offset="69206016" Size="524288" UUID="37ef706b-d090-4d47-993a-693dcf8d0b35" />
+      <Frame File="..\position014--t33--c01.tif" Offset="69730304" Size="524288" UUID="47de6b80-ae46-4332-8e7a-1b9f575fe102" />
+      <Frame File="..\position014--t33--c02.tif" Offset="70254592" Size="524288" UUID="502d16f0-9e39-44c7-b766-270cd05b82bf" />
+      <Frame File="..\position014--t33--c03.tif" Offset="70778880" Size="524288" UUID="04c446a9-6d61-4733-bf89-fdc402136cc6" />
+      <Frame File="..\position014--t34--c00.tif" Offset="71303168" Size="524288" UUID="47eb3be2-9773-4c14-bc3b-7504502d06e4" />
+      <Frame File="..\position014--t34--c01.tif" Offset="71827456" Size="524288" UUID="83610107-b39c-47c8-a708-8703d09e2ec6" />
+      <Frame File="..\position014--t34--c02.tif" Offset="72351744" Size="524288" UUID="abcbecf4-f273-4fa1-8f03-3ae4156d132b" />
+      <Frame File="..\position014--t34--c03.tif" Offset="72876032" Size="524288" UUID="eda0f023-e547-4f2b-835d-2076efaec7d3" />
+      <Frame File="..\position014--t35--c00.tif" Offset="73400320" Size="524288" UUID="49512513-ad17-4598-a885-0f5f7ea3d251" />
+      <Frame File="..\position014--t35--c01.tif" Offset="73924608" Size="524288" UUID="bd89e553-4fdd-4d1d-991d-c0c9b63ace82" />
+      <Frame File="..\position014--t35--c02.tif" Offset="74448896" Size="524288" UUID="a9ddb64d-8dc9-4a95-b378-acd65cd7ad5a" />
+      <Frame File="..\position014--t35--c03.tif" Offset="74973184" Size="524288" UUID="69955b9f-aa12-401d-b05c-b8e0fc8410d7" />
+      <Frame File="..\position014--t36--c00.tif" Offset="75497472" Size="524288" UUID="aa6b47c3-6381-4c36-a6ba-9cca8fd835bb" />
+      <Frame File="..\position014--t36--c01.tif" Offset="76021760" Size="524288" UUID="b364e686-0b7a-47dc-b6c2-63553e7fd9d1" />
+      <Frame File="..\position014--t36--c02.tif" Offset="76546048" Size="524288" UUID="40800bae-9270-435e-9338-ffeedbed4c8c" />
+      <Frame File="..\position014--t36--c03.tif" Offset="77070336" Size="524288" UUID="4fa20172-3770-4b86-8a4a-78d40aa9b88d" />
+      <Frame File="..\position014--t37--c00.tif" Offset="77594624" Size="524288" UUID="f899ab9c-73ba-4952-a13a-ce25acd76308" />
+      <Frame File="..\position014--t37--c01.tif" Offset="78118912" Size="524288" UUID="58971729-bdd2-4623-9ed8-9c7c99d2b139" />
+      <Frame File="..\position014--t37--c02.tif" Offset="78643200" Size="524288" UUID="c7506606-5462-4fbb-ac54-713a517f4453" />
+      <Frame File="..\position014--t37--c03.tif" Offset="79167488" Size="524288" UUID="ef476f12-2e56-434e-9f66-bec7905d2466" />
+      <Frame File="..\position014--t38--c00.tif" Offset="79691776" Size="524288" UUID="4c1d98c9-66a2-47c1-bc03-133f2cdc7857" />
+      <Frame File="..\position014--t38--c01.tif" Offset="80216064" Size="524288" UUID="66ee027d-cce5-47e4-9c2b-4777605fadfa" />
+      <Frame File="..\position014--t38--c02.tif" Offset="80740352" Size="524288" UUID="06156f2c-a87f-4aec-900f-3e2a2bfca766" />
+      <Frame File="..\position014--t38--c03.tif" Offset="81264640" Size="524288" UUID="8e114b8d-546a-427d-bc04-dafc0a4cb86e" />
+      <Frame File="..\position014--t39--c00.tif" Offset="81788928" Size="524288" UUID="e551f69d-8ee3-4fdf-b432-abec35c00df2" />
+      <Frame File="..\position014--t39--c01.tif" Offset="82313216" Size="524288" UUID="2d6bf78b-3a7c-4112-b2d2-0ed08f206aa6" />
+      <Frame File="..\position014--t39--c02.tif" Offset="82837504" Size="524288" UUID="3892f28e-8507-4041-afe4-776e134a28c5" />
+      <Frame File="..\position014--t39--c03.tif" Offset="83361792" Size="524288" UUID="aba24d01-9227-4549-ad20-41f6826c1c98" />
+      <Frame File="..\position014--t40--c00.tif" Offset="83886080" Size="524288" UUID="491ea99d-2e2e-4923-b4d1-f340b8914171" />
+      <Frame File="..\position014--t40--c01.tif" Offset="84410368" Size="524288" UUID="a8e8353d-54bf-4cd8-9a13-5facb7582fff" />
+      <Frame File="..\position014--t40--c02.tif" Offset="84934656" Size="524288" UUID="32a9e4e9-23a5-4a4c-a472-9bbddfcbbf96" />
+      <Frame File="..\position014--t40--c03.tif" Offset="85458944" Size="524288" UUID="00f35ace-4cb9-4bf9-9b00-11af2e5c45b6" />
+      <Frame File="..\position014--t41--c00.tif" Offset="85983232" Size="524288" UUID="420cb635-c9db-4839-819a-fab832239a97" />
+      <Frame File="..\position014--t41--c01.tif" Offset="86507520" Size="524288" UUID="00c60cbe-07fe-4260-868c-b814c83ef5b5" />
+      <Frame File="..\position014--t41--c02.tif" Offset="87031808" Size="524288" UUID="bc4b3c4f-88ba-462a-bdb3-7385c17dacd3" />
+      <Frame File="..\position014--t41--c03.tif" Offset="87556096" Size="524288" UUID="b5e4e21a-0f8d-498a-b602-b489c18a18d4" />
+      <Frame File="..\position014--t42--c00.tif" Offset="88080384" Size="524288" UUID="1a216a71-c75e-4580-adf7-b65e5ed9e1cc" />
+      <Frame File="..\position014--t42--c01.tif" Offset="88604672" Size="524288" UUID="880acbba-8fde-4465-a167-e51ad8e3fbfe" />
+      <Frame File="..\position014--t42--c02.tif" Offset="89128960" Size="524288" UUID="cba6b380-a278-4f02-85d1-c56739013706" />
+      <Frame File="..\position014--t42--c03.tif" Offset="89653248" Size="524288" UUID="62ba2ad1-19f4-4bfd-b6e5-1dd266eaf85b" />
+      <Frame File="..\position014--t43--c00.tif" Offset="90177536" Size="524288" UUID="f77ba8f7-26c6-45a1-a567-84b9d096c626" />
+      <Frame File="..\position014--t43--c01.tif" Offset="90701824" Size="524288" UUID="ae23934f-1162-4efb-965e-b81934a18b97" />
+      <Frame File="..\position014--t43--c02.tif" Offset="91226112" Size="524288" UUID="4adc40fe-05e9-429a-b85c-682f978d942a" />
+      <Frame File="..\position014--t43--c03.tif" Offset="91750400" Size="524288" UUID="51175fa2-2490-42b8-b7a9-a0376aaaea8a" />
+    </Memory>
+    <Children />
+  </Element>
+</LMSDataContainerHeader>
