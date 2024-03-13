@@ -1,5 +1,12 @@
 function [Output] = fluorescence_evaluation(Input_data,BW_MASK)
-
+Frame_from_Channel = {zeros(600, 600, 'uint16')};
+BCKGRND_Frame_from_Channel = {zeros(600, 600, 'uint16')};
+BCKGRND_from_antimask = {zeros(600, 600, 'uint16')};
+Masked_Frame_from_Channel = {zeros(400,400,'uint16')};
+AVG_measure_from_BCKGRND_Frame_Channel = zeros(4,4,'double');
+AVG_measure_from_antimask_BCKGRND_Channel = zeros(4,4,'double');
+AVG_measure_from_MaskedFrame_Channel = zeros(4,4,'double');
+Fluorescence_Channel_A_A = zeros(4,4,'double');
 %% reading images, also background ones if required, or building background
 for i=1:Input_data.n_Channels
    Frame_from_Channel{i} = imread(Input_data.CHANNEL{i});
@@ -61,8 +68,8 @@ if (Input_data.IRFP_flag~=0)
 end
 
 %% Outputs
-Output.Absolute_Fluorescence_AVG = AVG_measure_from_MaskedFrame_Channel; %absolute fluo as avg of pixels
-Output.Fluorescence_Channel_A_A = Fluorescence_Channel_A_A; %avg of masked fluo frame - avg background frame
+Output.Absolute_Fluorescence_AVG = AVG_measure_from_MaskedFrame_Channel; % absolute fluo as avg of pixels
+Output.Fluorescence_Channel_A_A = Fluorescence_Channel_A_A; % avg of masked fluo frame - avg background frame
 if(Input_data.position_of_background~=0)
     Output.Average_Background_fluorescence = AVG_measure_from_BCKGRND_Frame_Channel;
 else

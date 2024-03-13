@@ -334,8 +334,8 @@ for i=1:n_timeframes
 %         % imshow(4*sulpho);
 % %       imread(fileNamesBCKGRND{4});
 %         title(strcat('Sulforhodamine B'))
-% 
-% 
+        
+        
         %%
         % Panle second row
         
@@ -393,7 +393,7 @@ normalizationp = (temp - min_temp) / (max_temp - min_temp);
 %     legend ('GFP','<GFP> calibration phase','50% <GFP> calibration phase','fontsize',8,'location','best')
       legend ('GFP','fontsize',8,'location','best')
 %     legend ('GFP/mCherry Normalized','Avarage fluo calibration phase ','50% meanfluo calibrationphase','Maximum calibration phase','50% maxfluo calibration phase','location','best','fontsize',12)
-      ylabel('Fluo [a.u.]','fontsize',10);
+      ylabel('Fluo [Arbitrary unit (a.u.)]','fontsize',10);
       xlabel('Time [min]','fontsize',10);
       xlim([0 (Parameters.n_timeframes-1)*60]);
       set(gca,'FontSize',10)
