@@ -313,31 +313,14 @@ for i=1:n_timeframes
        
      subplot(4,4,2);
        imshow(imadjust(cropped_image{Parameters.fluoeval.fluorescence_channel }));
-       % I tried to normalize the gfp,but there is not so much improvement.
-       % Left as before.
-%      gfp=(double(gfp-min_gfp))/double(max_gfp-min_gfp);
-%      imshow(3*gfp);
        title(strcat('GFP'));
         
     subplot(4,4,3);
         imshow(imadjust(cropped_image{Parameters.fluoeval.nucleo_tag_channel}));
-%       h2b=cropped_image{Parameters.fluoeval.nucleo_tag_channel};
-%       h2b=(double(h2b-min_h2b))/double(max_h2b-min_h2b);
-%       imshow(20*h2b);
         title(strcat('H2B'))
     
-%     subplot(4,4,4);
-% %       imshow(imadjust(cropped_image{4}))
-%         imshow(imadjust(cropped_image{Parameters.sulpho}));
-%         % sulpho=cropped_image{Parameters.sulpho};
-%         % sulpho=(double(sulpho-min_sulpho))/double(max_sulpho-min_sulpho);
-%         % imshow(4*sulpho);
-% %       imread(fileNamesBCKGRND{4});
-%         title(strcat('Sulforhodamine B'))
-% 
-% 
-        %%
-        % Panle second row
+%%
+% Panle second row
         
      subplot(4,4,5);
         imshow((Output.MASK{i}));
@@ -350,11 +333,13 @@ for i=1:n_timeframes
 
      subplot(4,1,3);
      title(strcat('Frame n. ',num2str(i-1)));
+     
 %%    Choose the input plot
 %     input=[ones(3*60,1)' zeros((n_timeframes-1-4)*60,1)']
       input=ones((Parameters.n_timeframes-1)*60,1)';
 %     input=[ones(4*60,1)' zeros(24*60,1)' ones((Parameters.n_timeframes-1-4)*60,1)']
       plot(input,'color','[0.6350, 0.0780, 0.1840]','linewidth',1.5)
+      
 %%    Lines to define the experiment days 
 %           xline(4*60,'color','r','linewidth',0.5,'LineStyle','--')
 %           xline(4*60+24*60,'color','r','linewidth',0.5,'LineStyle','--')
@@ -362,7 +347,6 @@ for i=1:n_timeframes
 %           xline(4*60+24*3*60,'color','r','linewidth',0.5,'LineStyle','--')
             xlim([0 (n_timeframes-1)*60]);
             ylim([0 1])   
-%           legend ('Input','Avarage fluo calibration phase ','Days off condition ''fontsize',6,'location','best')
             yticklabels({'-2i/Lif','+2i/Lif'})
             yticks([0 1])
             ylabel('Input','fontsize',10);
@@ -370,8 +354,7 @@ for i=1:n_timeframes
             set(gca,'FontSize',10);
         
     subplot(4,1,4);
-      cb=3; %value to moidify according to the frame of the calibration phase (usually 3hrs)
-% normalizationp=(Output.Fluorescence_Channel_A_A(:,Parameters.fluoeval.fluorescence_channel)-min(Output.Fluorescence_Channel_A_A(:,Parameters.fluoeval.fluorescence_channel)))/(max(Output.Fluorescence_Channel_A_A(1:cb,Parameters.fluoeval.fluorescence_channel))- min(Output.Fluorescence_Channel_A_A(:,Parameters.fluoeval.fluorescence_channel)));
+    cb=3; %value to moidify according to the frame of the calibration phase (usually 3hrs)
 
 temp = Output.Fluorescence_Channel_A_A(:,Parameters.fluoeval.fluorescence_channel);
 min_temp = min(temp);
@@ -379,27 +362,15 @@ max_temp = max(temp(1:cb));
 normalizationp = (temp - min_temp) / (max_temp - min_temp);
 
       plot((0:i-1)*60,normalizationp(1:i),'linewidth',1.5,'color','[0.2 0.6 0]')
-%     plot(Output.Nuclei_Normalized_Fluorescence_Channel_A_A(:,Parameters.fluoeval.fluorescence_channel))
-%     average2ip=mean(normalizationp(1:cb,1));
-%     average2i50p=average2ip*50/100;    
-%     massimop=max(normalizationp(1:cb,1));
-%     massimo50p=massimop*50/100;
       xlim([0 (Parameters.n_timeframes-1)*60]);
-%     yline(average2ip,'color','[0.2 0.6 0]','linewidth',1,'LineStyle','--')
-%     yline(average2i50p,'color','[0.2 0.6 0]','linewidth',0.5)
-% %   yline(massimop,'color','[1 0.7 0.9]','linewidth',1)
-% %   yline(massimo50p,'color','[1 0.7 0.9]','linewidth',0.5)   
       ylim([min(normalizationp) max(normalizationp)]);
-%     legend ('GFP','<GFP> calibration phase','50% <GFP> calibration phase','fontsize',8,'location','best')
       legend ('GFP','fontsize',8,'location','best')
-%     legend ('GFP/mCherry Normalized','Avarage fluo calibration phase ','50% meanfluo calibrationphase','Maximum calibration phase','50% maxfluo calibration phase','location','best','fontsize',12)
       ylabel('Fluo [a.u.]','fontsize',10);
       xlabel('Time [min]','fontsize',10);
       xlim([0 (Parameters.n_timeframes-1)*60]);
       set(gca,'FontSize',10)
-      % hold off;
 
-    % end
+  
     pause(.2);
     frame = getframe(gcf);
     writeVideo(time_lapse,frame);
