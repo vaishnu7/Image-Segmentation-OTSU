@@ -9,7 +9,7 @@ Now let's dive into the workflow or the function of this code:
 - In this particular experiment, even though Sulphorodamine channel is present but no Sulphorodamine was used in the experiment.
 
 Now let's explore the `OFFLINE_function.m` function:
-- The parameters you have entered in the MAIN section is passed here in this function.
+- The parameters you have entered in the MAIN section are passed here in this function.
 - To note: we are not using anti-masking here, so we always select our background as Dial-A-Wave junction or any other junction available in the experiment channel 1.
 - The Phase Contrast part of this code has parameters exported from the Image Segmentation app where the Cell shapes are identified as circles, dilated and eroded accordingly.
 - `cb = 3` is the caliberation phase which is usually 3hrs of the experiment.
