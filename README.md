@@ -13,3 +13,6 @@ Now let's explore the `OFFLINE_function.m` function:
 - To note: we are not using anti-masking here, so we always select our background as Dial-A-Wave junction or any other junction available in the experiment channel 1.
 - The Phase Contrast part of this code has parameters exported from the Image Segmentation app where the Cell shapes are identified as circles, dilated and eroded accordingly.
 - `cb = 3` is the caliberation phase which is usually 3hrs of the experiment.
+
+
+This code closely follows the original ChipSeg code from [here](https://github.com/LM-group/ChipSeg).
