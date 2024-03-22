@@ -1,4 +1,4 @@
-# Image-Segmentation For Open Loop Experiment: OTSU method
+# Image-Segmentation For Open Loop Experiment: OTSU method ( Clustered cell )
 This is basic work on Image segmentation in MATLAB using OTSU method. In order to run the code, you have download the `exp_data_2` folder and copy the directory address or the path in the code. The code should be able to run in any versions of MATLAB but to be specific, I ran this code in `MATLAB2023b` version. You must also install the `Image Processing Toolbox` from the MATLAB app store. Sample results are given in file names `pos3 - new exp 2` to `pos15 - new exp 2`. To find which position in the microfluidic device has healthy cells, check the microsoft word file `2021_03_13 2iL.doc` in `exp_data_2/ON_2ILIF`.  
 Now let's dive into the workflow or the function of this code:
 
