@@ -3,7 +3,7 @@
 close;
 clc;
 
-tic
+
 mkdir mat_figures_and_data_folder %create a new folder for images
 
 %% Standard MAIN: TO BE COMPLETED TO ANALYSE OFFLINE EXPERIMENTS
@@ -97,4 +97,3 @@ save('Parameters.mat', 'Parameters');
 save('Results.mat','outputArg1', 'Parameters');
 % outputArg1 = stores all information about calculated fluorescence for
 % this experiment
-toc
