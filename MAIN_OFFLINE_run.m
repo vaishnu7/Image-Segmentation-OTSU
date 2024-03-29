@@ -51,7 +51,7 @@ position_of_background = 1; % Insert the position of the background -
 video_name = '2i'; % Insert the file name for the VideoMaker
 
 % Insert the name of the folder containing the images 
-dir_mat_folder ='C:\Users\gz24763\OneDrive - University of Bristol\Documents\exp_data_2\ON_2ILIF\RAWDATA\2021_03_13_2iL';
+dir_mat_folder ='C:\OTSU_CODES_OPENLOOP_experiment 2\Image-Segmentation-OTSU\exp_data_2\ON_2ILIF\RAWDATA\2021_03_13_2iL';
 % change the folder name accordingly
 
 % to be analysed plus a slash ( \\ or /) according to the
